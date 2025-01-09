@@ -23,9 +23,9 @@ print("Libraries Updated")
 
 
 # parameters for loading data and images
-detection_model_path = r'Face Emotion Gender\haarcascade_frontalface_default.xml'
-emotion_model_path = r'Face Emotion Gender\fer2013_mini_XCEPTION.102-0.66.hdf5'
-gender_model_path = r'Face Emotion Gender\simple_CNN.81-0.96.hdf5'
+detection_model_path = r'haarcascade_frontalface_default.xml'
+emotion_model_path = r'fer2013_mini_XCEPTION.102-0.66.hdf5'
+gender_model_path = r'simple_CNN.81-0.96.hdf5'
 emotion_labels = get_labels('fer2013')
 gender_labels = get_labels('imdb')
 font = cv2.FONT_HERSHEY_SIMPLEX
